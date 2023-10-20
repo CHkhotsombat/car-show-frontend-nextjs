@@ -73,8 +73,8 @@ export default function Home() {
               ))}
             </div>
             {loading && (
-              <div>
-                <Image alt="loader" src="/loader.svg" width={50} height={50} />
+              <div className="mt-[2rem] flex justify-center">
+                <Image alt="loader" src="/loader-spinner.gif" width={50} height={50} />
               </div>
             )}
             <ShowMore
